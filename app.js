@@ -1,3 +1,8 @@
+
+
+
+
+
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
@@ -33,7 +38,8 @@ boxes.forEach((box) => {
       turnO = false;
     } else {
       //playerX
-      box.innerText = "X";
+     box.innerText = "X";
+     
       turnO = true;
     }
     box.disabled = true;
@@ -89,3 +95,30 @@ const checkWinner = () => {
 
 newGameBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
