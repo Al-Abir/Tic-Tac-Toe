@@ -1,8 +1,4 @@
 
-
-
-
-
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
@@ -35,6 +31,7 @@ boxes.forEach((box) => {
     if (turnO) {
       //playerO
       box.innerText = "O";
+      box.style.color= "#ECA72C"
       turnO = false;
     } else {
       //playerX
